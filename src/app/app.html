@@ -3,7 +3,7 @@
     <img [src]="profile.photo" [alt]="profile.name" class="profile-photo" />
 
     <h1>{{ profile.name }}</h1>
-    <p class="slack">Slack: {{ profile.slackId }}</p>
+    <p class="slack"><span class="slack-label">Slack:</span> {{ profile.slackId }}</p>
 
     <ul class="links">
       @for (link of profile.links; track link.label) {

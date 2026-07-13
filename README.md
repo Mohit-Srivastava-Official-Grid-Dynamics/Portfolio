@@ -24,3 +24,5 @@ npm test        # unit tests (Vitest)
 
 Edit the `profile` object in `src/app/app.ts` for name, links, and Slack ID.  
 Replace `public/profile.jpg` to change the photo. Layout and styles live in `src/app/app.html` and `src/app/app.css`.
+
+**Live site:** https://main.dsk4yg9554j6l.amplifyapp.com
